@@ -11,10 +11,10 @@ public class MemoResponseDto {
     private String title;
     private String contents;
 
+    // Memo class를 인자로 가지는 생성자
     public MemoResponseDto(Memo memo) {
         this.id = memo.getId();
         this.title = memo.getTitle();
         this.contents = memo.getContents();
     }
-
 }
